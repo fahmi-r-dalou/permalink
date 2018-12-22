@@ -1,4 +1,5 @@
 <?php
+// 
 add_filter( 'rewrite_rules_array', function( $rules ) {
     $new_rules = array();
     $terms = get_terms( array(
